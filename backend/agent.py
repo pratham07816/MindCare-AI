@@ -14,7 +14,7 @@ os.environ["OPENAI_BASE_URL"] = "https://openrouter.ai/api/v1"
 
 from pydantic_ai import Agent
 from pydantic_ai.models.openai import OpenAIChatModel
-from app.schemas import AIInsight
+from schemas import AIInsight
 
 # ✅ CORRECT for your version
 model = OpenAIChatModel(

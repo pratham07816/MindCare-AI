@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.schemas import MoodInput, AIInsight
-from app.agent import agent
+from schemas import MoodInput, AIInsight
+from agent import agent
 
 app = FastAPI()
 
