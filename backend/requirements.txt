@@ -2,3 +2,7 @@ fastapi
 uvicorn
 pydantic
 python-dotenv
+pydantic-ai
+pymongo
+openai
+httpx
