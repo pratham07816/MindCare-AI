@@ -12,7 +12,9 @@ app.add_middleware(
         "http://localhost:3000",
         "http://127.0.0.1:5173",
         "http://127.0.0.1:3000",
+        "https://mindcare-ai-1.onrender.com"
     ],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -23,6 +25,4 @@ async def reflect(mood_input: MoodInput):
         f"Mood level: {mood_input.mood}\n"
         f"Reflection: {mood_input.text}"
     )
-
-    # ✅ result.output is already AIInsight
     return result.output
