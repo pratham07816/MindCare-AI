@@ -7,7 +7,7 @@ This project focuses on emotional support and self-reflection, not medical or di
 Live Links
 ----------
 Frontend:
-https://mindcare-ai-vuhz.onrender.com
+[https://mindcare-ai-vuhz.onrender.com](https://mindcare-ai-1.onrender.com/)
 
 Backend API Docs:
 https://mindcare-ai-vuhz.onrender.com/docs
@@ -78,3 +78,4 @@ Author
 ------
 Pratham G Pawar
 Computer Science Engineer | Full Stack & AI Developer
+
